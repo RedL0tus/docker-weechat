@@ -11,7 +11,8 @@ docker run -t -i -d -v ~/vmdata/weechat:/.weechat jemc/weechat
 dtach -a ~/vmdata/weechat/weechat.dtach
 ```
 
-In addition to the 
+In addition to the socket file, the shared volume will be used for
+configuration and logging (`$HOME/.weechat` on a typical weechat installation).
 
 
 ## Troubleshooting
