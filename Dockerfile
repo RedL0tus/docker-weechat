@@ -1,5 +1,5 @@
 FROM        debian:sid
-MAINTAINER  KayMW <i@ikay.work>
+MAINTAINER  KayMW <redl0tus@noreply.github.com>
 
 RUN apt-get update && apt-get dist-upgrade ca-certificates apt-transport-https gnupg -y
 RUN apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys 11E9DE8848F2B65222AA75B8D1820DB22A11534E
