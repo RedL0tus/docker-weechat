@@ -4,7 +4,7 @@
 ``` shell
 # Run with weechat folder mounted to ~/vmdata/weechat on the host
 mkdir -p ~/vmdata/weechat
-docker run -t -i -d -v ~/vmdata/weechat:/.weechat jemc/weechat
+docker run -t -i -d -v ~/vmdata/weechat:/root/.weechat kaymw/weechat
 ```
 ``` shell
 # Attach to the running weechat from the host
